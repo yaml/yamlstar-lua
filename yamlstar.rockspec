@@ -1,8 +1,8 @@
 rockspec_format = "3.0"
 package = "yamlstar"
-version = "0.1.17-1"
+version = "0.1.18-1"
 source = {
-   url = "https://github.com/yaml/yamlstar-lua/archive/refs/tags/v0.1.17.tar.gz"
+   url = "https://github.com/yaml/yamlstar-lua/archive/refs/tags/v0.1.18.tar.gz"
 }
 description = {
    summary = "Lua binding for YAMLStar",
@@ -17,7 +17,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.1",
-   "cffi-lua >= 0.1.17",
+   "cffi-lua >= 0.1.18",
    "lua-cjson >= 2.1.0"
 }
 build = {
@@ -27,6 +27,6 @@ build = {
    },
    copy_directories = { "test" },
    external_dependencies = {
-      libyamlstar = "== 0.1.17"
+      libyamlstar = "== 0.1.18"
    }
 }
